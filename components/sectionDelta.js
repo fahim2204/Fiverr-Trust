@@ -7,7 +7,7 @@ export default () => {
                         <h1>Tokenomics & Stats</h1>
                     </div>
                     
-                    <div className="grid  md:grid-cols-3 md:gap-8 ">
+                    <div className="justify-center items-center mx-auto grid  md:grid-cols-3 md:gap-8">
                         <div className="my-5 ">
                             <img className="h-6 my-5" src="/img/icon/nft.svg" alt="nft" />
                             <h2 className="text-3xl text-white font-bold  leading-normal tracking-wider font-gigasens"> $trust Token </h2>
