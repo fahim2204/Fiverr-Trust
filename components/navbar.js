@@ -8,7 +8,7 @@ export default () => {
     <nav className="bg-transparent border-gray-200 font-ubuntu">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6 md:px-10 py-4">
         <Link href="/" className="flex items-center">
-          <img src="/img/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />
+          <img src="/img/logo.svg" className="h-16 mr-3" alt="Flowbite Logo" />
         </Link>
         <button
           type="button"
@@ -43,7 +43,7 @@ export default () => {
                 className="block py-2 pl-3 pr-4 text-white hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-bot-beta md:p-0 transition-all duration-300"
                 aria-current="page"
               >
-                Home
+                ABOUT
               </a>
             </li>
             <li>
@@ -51,7 +51,7 @@ export default () => {
                 href="#"
                 className="block py-2 pl-3 pr-4 text-white hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-bot-beta md:p-0 transition-all duration-300"
               >
-                Solution
+                TOKENOMICS
               </a>
             </li>
             <li>
@@ -59,31 +59,7 @@ export default () => {
                 href="#"
                 className="block py-2 pl-3 pr-4 text-white hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-bot-beta md:p-0 transition-all duration-300"
               >
-                Benefits
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pl-3 pr-4 text-white hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-bot-beta md:p-0 transition-all duration-300"
-              >
-                Industries
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pl-3 pr-4 text-white hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-bot-beta md:p-0 transition-all duration-300"
-              >
-                Process
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pl-3 pr-4 text-white hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-bot-beta md:p-0 transition-all duration-300"
-              >
-                Contact
+                BUY NOW
               </a>
             </li>
           </ul>

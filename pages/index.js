@@ -6,10 +6,11 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-import SectionAlpha from "../components/sectionAlpha";
 import SectionHero from "../components/sectionHero";
 import SectionBeta from "../components/sectionBeta";
-
+import SectionGamma from "../components/sectionGama";
+import SectionDelta from "../components/sectionDelta";
+import SectionTrust from "../components/sectionTrust";
 export default function Home() {
   return (
     <div>
@@ -19,11 +20,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="bg-bot-alpha rounded-b-[42px]">
-          <Navbar />
-          <SectionHero />
-        </div>
-        <SectionAlpha />
+        <Navbar />
+        <SectionHero />
+        <SectionTrust />
+        <SectionDelta />
+        <SectionGamma />
         <SectionBeta />
         <footer>
           <Footer />
